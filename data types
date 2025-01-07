@@ -1,0 +1,195 @@
+git-hub(cloud)
+local repo----untracked files , tracked files
+un-t-->create update delete
+tracked ---->git add file-name or git add . and git commit -m
+
+repository-> Folder
+
+git remote add origin http-path---> Establishing the path in the local repo
+
+git push -u origin master/main--->here main is the default 
+
+origin is nothing but git-hub
+--------------------------------------------------------------------------------------------------------
+React native is used to develop mobile application
+Electron.JS is used to develop desktop application
+React JS is used to develop web application
+--------------------------------------------------------------------------------------------------------
+WHAT IS JAVASCRIPT?
+It is used to convert static page into dynamic page 
+DEVELOP THE DYNAMIC WEBSITES
+Static is fixed and remains same for everyone
+Ex: fb login.
+Dynamic changes from person to person based on the conditions of the user
+Ex: youtube, maps, Instagram etc…
+DATA TYPES 
+	PRIMITIVE DATA TYPE :
+Num, string, Boolean, undefined, bigint
+	NON PRIMITIVE DATA TYPE : 
+Class, object, array, functions, map, sets
+
+In JS variables are dynamic in nature, which means no need of declaring the data type while assigning a value to variable.
+In java variables are static.
+In JS we have SCOPE  concept 
+Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript
+They are of 3 types:
+Global scope – declare outside and access it in inside the block
+Local scope/ Script scope  - Variables declared within a JavaScript function
+Block scope - Variables declared inside a { } block cannot be accessed from outside the block
+
+IN JS DATA TYPES THEY ARE DIVIDED INTO 3 :
+VAR
+LET
+CONST
+
+First preference for “const” then “let” then “var”
+In const reinitialization and redeclaration is not possible
+In let reinitialization is possible
+In var both are possible 
+
+06-01-2025
+VARIABLES:
+	Static typed and dynamic types
+	They are used to store the data(any kind of data)
+	Case – sensitive 
+	Allow  letters ,_ $(dollar sign) [variables can be started by using these]
+	Variables cant start with numbers
+	Reserved words(Key words)  are also not allowed
+
+How to declare varbles?
+	Var keyword (1995-2015)
+	Let keyword 2015
+	Var used only in old browsers
+
+1)	Reassigning variables is possible by var
+It will be taking latest assigned values
+2)	Reassigning variables is possible by let
+3)	Reassigning variables is not possible by const
+
+
+
+
+
+
+VAR :
+ 
+ 
+
+OUTPUT : 
+
+
+Ex 2:
+ 
+OUTPUT : 
+ 
+
+
+
+Reassigning with LET keyword :
+ 
+Output: 
+ 
+Reassigning with CONST : 
+ 
+Output : 
+ 	 
+
+
+
+
+
+
+
+REDECLARING : 
+VAR : 
+         
+OUTPUT : 
+ 
+
+LET : 
+         
+Output : 
+ 
+
+CONST : 
+ 
+
+Output : 
+ 
+
+Here ,
+Redeclaration with var is accepted
+Redeclaration with let is not accepted 
+Redeclaration with const is not accepted 
+
+BLOCK SCOPE : 
+Variables declared with 
+VAR : 
+ 
+Output: 
+ 
+
+LET :
+  
+
+
+
+Output :
+ 
+ 
+CONST :l 
+ 
+OUTPUT : 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+07-01-2025
+
+
+Two types of data types in JS : 
+-	Primitive 
+-	Non-primitive : objects, arrays
+TO CHECK THE DATA TYPE – TYPE OF:
+1)	Primitive data type : predefined : we can store single values
+2)	Numbers : integers, floats
+3)	String : Stream of characters, enclosed in quotes ( single , double, backtick quotes)
+4)	Boolean : true or false
+5)	Null : empty or no value
+6)	Undefined : declared variable with no value
+
+Strings : Stream of characters enclosed in quotes
+it will provides a functionality
+
+PYTHON, JAVA, C, C++
+DATA STRUCTURES
+#leet code
+#hackerrand
+#codechef
+#Written test in mncs
+#technical interview
+#Conditional statements – only once #1 – 10C
+#Loops : 
+#functions : 
+#Oops 
+Conditional statements : 
+To make the set of instructions execute only when the conditional id True Block of Code (conditional block) set of instructions
+When this block of code will execute when the specific condition is true or false based on the condition.
+Indentation : { }
+The code used or written inside the indentation can be considered as the block code OR conditional block
+
+Eg : {       
+           ------ block code 
+                                           }
+
