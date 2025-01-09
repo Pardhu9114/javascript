@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      //  const a = 1;
+      //  const a = 5
+        
+      //  console.log(a+a);
+      //  document.write(a+a);
+     // const a = "sai";
+      //{
+       // const a = "kumar";
+        //console.log(a);
+      //}
+      //console.log(a);
+      //a=1;
+      //console.log("hi +a");
+      //console.log("hi + a+a");
+      //document.write("hi+a");
+      //console.log(`Hi + ${a+a}`)
+      //document.write(`Hi + ${a+a}`);
+     // a = 'Pardhu' ;
+     // b = 'CH'; 
+     // age = 21;
+     // c = console.log(`I am ${a+" "+b}, my age is ${age} years old`);
+     // document.write(`I am ${a+" "+b}, my age is ${age} years old`);
+     //a = 'Pardhu';
+     //b = 'Ch';
+     //document.write(`Reactjs = ${a+" "+b}`)
+     //console(35>=35)
+     
+     
+     //alert('pardhu')
+     //document.write(alert)
+
+     //aa = prompt("Enter your name : ")
+     //alert(`My name is : ${aa}`)
+
+     //let a1 = prompt("Enter the value of a :")
+     //document.write(a1, "<br>")
+     //document.write(typeof(a1), "<br>")
+     //let a2 = prompt("Enter the value of b :")
+     //document.write(a2, "<br>")
+     //document.write(typeof(a2), "<br>")
+     //document.write(a1+a2, "<br>")
+
+     //let t = 40
+     //let r = (t>40)?'Ac-off' : 'Ac - on'
+     //et s = (t>39)?'Ac-off' : 'Ac - on'
+     //document.write(r, "<br>")
+     //document.write(s, "<br>")
+     //let a = "5"
+     //let b = "5"
+     // relational operators
+     //document.write(a==b, "<br>")
+     //document.write(a!=b, "<br>")
+     //document.write(a===b, "<br>")
+     //document.write(a!==b, "<br>")
+
+     //Relational operators 
+
+
+     //document.write(a>b && a>2, "<br>")
+     //document.write(a>b && a>12, "<br>")
+     //document.write(a>b || a>2, "<br>")
+     //document.write(a>b, "<br>")
+
+
+     //a+=40 // a=a+40 a=5+40=45
+     //b-=5 // b = b-5 // -3
+     //document.write(a, "<br>")
+     //document.write(b, "<br>")
+     //document.write(a*b, "<br>")
+     //document.write(a**b, "<br>")
+     //document.write(a/b, "<br>")
+     //document.write(a%b, "<br>")
+     //let age = prompt("Enter your age : ")
+     //let name = prompt("Enter your name : ")
+     //if(age<18){
+      //document.write(name +"You are too young to marry", '<br>')
+     //}
+     //else if(age>35){
+      //document.write(name + "You are too late to marry", "<br>")
+     //}
+     //else{ alert(name +" "+"You got perfect age to marry","<br>")
+
+     //}
+     //document.write("Welcome to INDIA", "<br>")
+     let a=prompt("Enter the score of 1st Player")
+        let b=prompt("Enter the score of 2nd Player")
+        if((a>300 || b>300) && a+b<500){
+            document.write("You are eligible to team up")
+        }else{
+            document.write("You are not eligible to team up")
+        }
+
+    </script>
+</body>
+</html>
