@@ -1,0 +1,364 @@
+git-hub(cloud)
+local repo----untracked files , tracked files
+un-t-->create update delete
+tracked ---->git add file-name or git add . and git commit -m
+
+repository-> Folder
+
+git remote add origin http-path---> Establishing the path in the local repo
+
+git push -u origin master/main--->here main is the default 
+
+origin is nothing but git-hub
+--------------------------------------------------------------------------------------------------------
+React native is used to develop mobile application
+Electron.JS is used to develop desktop application
+React JS is used to develop web application
+--------------------------------------------------------------------------------------------------------
+WHAT IS JAVASCRIPT?
+It is used to convert static page into dynamic page 
+DEVELOP THE DYNAMIC WEBSITES
+Static is fixed and remains same for everyone
+Ex: fb login.
+Dynamic changes from person to person based on the conditions of the user
+Ex: youtube, maps, Instagram etc…
+DATA TYPES 
+	PRIMITIVE DATA TYPE :
+Num, string, Boolean, undefined, bigint
+	NON PRIMITIVE DATA TYPE : 
+Class, object, array, functions, map, sets
+
+In JS variables are dynamic in nature, which means no need of declaring the data type while assigning a value to variable.
+In java variables are static.
+In JS we have SCOPE  concept 
+Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript
+They are of 3 types:
+Global scope – declare outside and access it in inside the block
+Local scope/ Script scope  - Variables declared within a JavaScript function
+Block scope - Variables declared inside a { } block cannot be accessed from outside the block
+
+IN JS DATA TYPES THEY ARE DIVIDED INTO 3 :
+VAR
+LET
+CONST
+
+First preference for “const” then “let” then “var”
+In const reinitialization and redeclaration is not possible
+In let reinitialization is possible
+In var both are possible 
+
+06-01-2025
+VARIABLES:
+	Static typed and dynamic types
+	They are used to store the data(any kind of data)
+	Case – sensitive 
+	Allow  letters ,_ $(dollar sign) [variables can be started by using these]
+	Variables cant start with numbers
+	Reserved words(Key words)  are also not allowed
+
+How to declare varbles?
+	Var keyword (1995-2015)
+	Let keyword 2015
+	Var used only in old browsers
+
+1)	Reassigning variables is possible by var
+It will be taking latest assigned values
+2)	Reassigning variables is possible by let
+3)	Reassigning variables is not possible by const
+
+
+
+
+
+
+VAR :
+ 
+ 
+
+OUTPUT : 
+
+ 
+Ex 2:
+ 
+OUTPUT : 
+ 
+
+
+
+Reassigning with LET keyword :
+ 
+Output: 
+ 
+Reassigning with CONST : 
+ 
+Output : 
+ 	 
+
+
+
+
+
+
+
+REDECLARING : 
+VAR : 
+         
+OUTPUT : 
+ 
+
+LET : 
+         
+Output : 
+ 
+
+CONST : 
+ 
+
+Output : 
+ 
+
+Here ,
+Redeclaration with var is accepted
+Redeclaration with let is not accepted 
+Redeclaration with const is not accepted 
+
+BLOCK SCOPE : 
+Variables declared with 
+VAR : 
+ 
+Output: 
+ 
+
+LET :
+  
+
+
+
+Output :
+ 
+ 
+CONST :l 
+ 
+OUTPUT : 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+07-01-2025
+
+
+Two types of data types in JS : 
+-	Primitive 
+-	Non-primitive : objects, arrays
+TO CHECK THE DATA TYPE – TYPE OF:
+1)	Primitive data type : predefined : we can store single values
+2)	Numbers : integers, floats
+3)	String : Stream of characters, enclosed in quotes ( single , double, backtick quotes)
+4)	Boolean : true or false
+5)	Null : empty or no value
+6)	Undefined : declared variable with no value
+
+Strings : Stream of characters enclosed in quotes
+it will provides a functionality
+
+PYTHON, JAVA, C, C++
+DATA STRUCTURES
+#leet code
+#hackerrand
+#codechef
+#Written test in mncs
+#technical interview
+#Conditional statements – only once #1 – 10C
+#Loops : 
+#functions : 
+#Oops 
+Conditional statements : 
+To make the set of instructions execute only when the conditional id True Block of Code (conditional block) set of instructions
+When this block of code will execute when the specific condition is true or false based on the condition.
+Indentation : { }
+The code used or written inside the indentation can be considered as the block code OR conditional block
+
+Eg : {       
+           ------ block code 
+                                           }
+08-01-2025
+Java script operators :
++,-*,
+Multiplication - *
+Division - / (Q)
+Modulus operator - % (R)
+Exponential (raised to the power) - **
+
+ASSIGNMENT OPERATORS : 
+Var name – “swetha”
++=
+-=
+/=
+%=
+LOGICAL OPERATORS : 
+AND - &&
+T AND T=T
+OR = ||
+T OR F = F
+NOT = !
+RELATIONAL OPERATORS (COMPARISION) VALUES : 
+< , > , >=, <=, ==, ===, !=, !===
+=== - checks the datatype and also the value
+== - only checks the value doesn’t checks the datatype
+
+CONDITIONAL OPERATORS : TERNARY OPERATOR (?)
+First evaluates for true or false 
+ Syntax : 
+Condition : ? e1 : e2
+
+WINDOWS :
+ALERT – 
+PROMPT – 
+09-01-2025
+CONDTIONAL STATEMENTS : 
+To make set of instructions (block of code) (conditional block) execute only when the given condition is True
+-	Used to decide whether the code has to be executed or skip based on the given condition
+-	Line – line(sequence)
+Block of code – set of instructions
+-	It will execute only when the specific conditions are true
+Condition : An expression that evaluates an result (TRUE OR FALSE)
+Ex : cosole.log(5>6)
+METHODS : 
+If : only one possible condtion
+If the condition is true it will execute else it will not execute
+
+
+
+
+
+OUTPUT : 
+ 
+
+
+
+
+
+
+
+
+If-else : 
+ 
+OUTPUT : 
+ 
+
+ASSIGNMENT : 
+Write a program that reads the scored A and B of two players and checks if one of the scores is greater than 300 and sum of the scores is less than 500
+INPUT : the first linne of input contains an integer representing the score A. and second line of input contains an integer representing the score B
+OUTPUT : The output should be a single line containing a string. Can team up should be printed if one of the score is greater than 300 and the sum of the scores is less than 500, otherwise cannot team up should be printed
+ 
+
+
+
+
+
+
+10-01-2025
+
+PROBLEM SOLVING WITH JAVASCRIPT 
+1)	Write a program to check whether the number is divisible by 2 and 3 and both (take prompt)
+2)	Write a program to find largest number out of three numbers expected from the user
+3)	Accept the following from the user and calculate the percentage of classes attended:
+a)	Total number of working days
+b)	Total number of days for absent
+After calculating the percentage, show that, if the percentage is less than 75 then the student will not  eligible to write exam
+
+
+21-01-2025
+
+let i=1, n=5;
+      while(i<=n){
+        console.log(i)
+        document.write(i)
+        i=i+1
+
+
+ 
+
+
+
+
+
+for(let i=1;i<=8;i=i+2){
+            if(i==4){
+            break;
+        }
+        console.log(i)
+        document.write(i)
+      }
+
+ 
+
+22-01-2025
+Nested loops: 
+A loop inside the another loop 
+The inner loop will execute one time for each iteration of outer loop
+An inner loop with the repeating block of outer loop
+
+23-21-2025 
+
+FUNCTIONS:
+ A Function is reusable block of code
+It can we call any where in the program
+REUSABLE CODE : Using an existing code with out writing it ever we need 
+You can use the same code with different arguments to get the results
+JS: 
+KEY WORD : FUNCTION
+PARAMETERS : values(variables) which are declared inside the () while defining a function
+ARGUMENTS : values which are passed through the parameters 
+ANONYMOUS FUNCTION : 
+A function with out name , after we create a function with out name and we assign it to a variable
+Example : 
+Sum = function(n1, n2){
+Let r = n1+n2
+Return r
+}
+Console.log(sum(8,9))
+VS CODE : 
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //function greet(){
+         //   console.log("Hello, Pardhu",);
+       // }
+        //greet()
+        //    console.log("Hello Saicharan");
+       // greet()
+      // function g(name){
+      //  document.write("Hello"+ " "+name)
+      // }
+      // let name = prompt("Enter your name!")
+      // g(name)
+
+      // function add(a, b){
+       // document.write(`Sum of ${a} + ${b} : ${a+b}`)
+      // }
+      // let inta = parseInt(prompt("Enter the value of a :"))
+      // let intb = parseInt(prompt("Enter the value of b "))
+      // add(inta, intb)
+      
+
+    </script>
+</body>
+</html>
