@@ -1,0 +1,151 @@
+24-01-2025
+Arrow functions : 
+	Es6 version
+	More readable and more structure
+	Anonymous functions (lambda functions)
+	Without function name but they are assigned to a variable
+EXAMPLE : 
+Let C=()=>{
+Console.log(“Hi Pardhu”)
+}
+C()
+ARROW FUNCTIONS WITH PARAMETERS :
+Ex:
+            let x=(x,y) =>{
+                console.log(x+y)
+            }
+            x(20,30)
+            y(40,50)
+ARROW FUNCTION WITH ONE PARAMETER
+Ex:
+        let greet = x=> console.log(x)
+        greet('hello')
+ARROW FUNCTION WITH OUT ARGUMENT : 
+EX: 
+    let greet=()=>console.log(x)
+    greet('hello')
+EX: arrow functions as an expression
+
+SYNCHRONOUS AND ASYNCHRONOUS 
+	Step by step
+	one task 
+	example :
+function task1(){
+console.log(“Task 1 : start”)
+}
+function task2(){
+console.log(“Task 2 : start”)
+}
+function task3(){
+console.log(“Task 3 : start”)
+}
+Task1()
+ASYNCHRONOUS FUNCTION:
+console.log("Hi Pardhu")
+    setTimeout(()=>{
+        console.log("Hi Im waiting")
+    },5000);
+    console.log("Im in LAB")
+JAVASCRIPT CALLBLACK FUNCTION : 
+A call back function is a function that is passed to argument to another function.
+Ex : 
+function greet(name,callback){
+        console.log(`Hello, ${name}!`)
+        callback()
+    }
+    function saygoodbye(){
+        console.log("Goodbye")
+    }
+    greet("Pardhu",saygoodbye)
+OUTPUT: 
+ 
+
+
+PROMISE : 
+Eventual completion
+Three states :
+1)	pending : still not completed – continuing 
+2)	fulfilled == task completed
+3)	rejected == the operation is failed 
+
+VS CODE : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // let C=()=>{
+         //   console.log("Hi Pardhu")
+          //  document.write("Hi Pardhu")
+           // }
+           // c()
+
+           // let x=(x,y) =>{
+            //    console.log(x+y)
+           // }
+           // x(20,30)
+            //y(40,50)
+            
+        //let greet = x=> console.log(x)
+        //greet('hello')
+
+   // let greet=()=>console.log(x)
+   // greet('hello')
+   //let 18;
+   //let welcome = (age<18)?
+   //()=>console.log("hi saicharan")
+   //()=>console.log("hi Pardhu")
+   //welcome()
+
+  //function task1(){
+  //console.log('Task 1 : start')
+   //
+   //function task2(){
+   //console.log('Task 2 : start')
+   //
+   //function task3(){
+   //console.log('Task 3 : start')
+   //
+   //Task1()
+   //Task2()
+   //Task3()
+   // console.log("Hi Pardhu")
+   // setTimeout(()=>{
+    //    console.log("Hi Im waiting")
+    //},5000);
+    //console.log("Im in LAB")
+
+ //   function greet(name,callback){
+  //      console.log(`Hello, ${name}!`)
+   //     callback()
+   // }
+    //function saygoodbye(){
+    //    console.log("Goodbye")
+   // }
+   // greet("Pardhu",saygoodbye)
+   let myPromise = new Promise ((resolve,reject)) =>{
+    let success = true;
+    if(success){
+        resovle("Task completed");
+    }
+    else{
+        reject("Task failed");
+    }
+    elif (pending){
+        resolve("Task is not completed, it's still peding");
+    }else(){
+        reject("Task failed");
+    } else(){
+        reject("Task is failed");
+
+    }
+
+}
+    </script>
+</body>
+</html>
