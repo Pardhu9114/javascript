@@ -1,0 +1,150 @@
+
+25-01-2025
+
+Callback functions : 
+You can pass the callback function as ana argument to another function
+Execution: the function receiving the callback will execute the callback at some point during execution(often at the end or after an asynchronous operation is done)
+EXAMPLE : 
+
+ 
+OUTPUT : 
+
+ 
+
+
+
+
+
+
+ANONYMOUS FUNCTION : 
+
+ 
+OUTPUT : 
+ 
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+OUTPUT : 
+ 	 
+
+EX 5 : 
+Using a callback function with array methods (map)
+Const numbers = [1,2,3,4,5]
+Const d = numbers.map(function(num){
+Return num*2
+});
+Console.log(d)
+
+ 
+function registeruser(username, email,callback){
+    console.log("registering user : "+username)
+    document.write("registering user : "+username)
+    setTimeout(function(){
+        console.log("user"+username+"registered successfully","<br>");
+        document.write("user"+username+"registered successfully","<br>");
+        callback(email)
+    },2000);
+   }
+   function sendwelcomeemail(email){
+    console.log("sending welcome email to "+email,"<br>")
+    document.write("sending welcome email to "+email,"<br>")
+   };
+   registeruser("Pardhu", "pardhu@gmail.com",sendwelcomeemail);
+
+OUTPUT : 
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     //   function mainfucntion(callback){
+      //      console.log("Executing main function")
+      //      document.write("Executing main function")
+      //      callback()
+      //      }
+      //  function callbackFunction(){
+      //      console.log("Executed callback function")
+      //      document.write("Executed callback function")
+       // }
+       // mainfucntion(callbackFunction)
+
+      // function greet(name,callback){
+       // console.log("Hello "+name);
+       // document.write("Hello "+name);
+        //callback();
+      // }    
+      // function goodbye(){
+      //  console.log("Goodbye");
+       // document.write("Goodbye");
+      // }
+      // greet("Pardhu", goodbye);
+      // function greet(name, callback){
+      //  document.write("Hello"+name)
+      //  callback();
+      // }
+      // greet("Pardhu",function(){
+       // document.write("Goodbye");
+      // }); // ANONYMOUS
+
+     //  function executeCallback(callback) {
+     //   console.log("Executing the callback function after 2 seconds");
+     //   document.write("Executing the callback function after 2 seconds");
+     //   setTimeout(callback, 2000); 
+   // }
+
+    //   executeCallback(function() {
+    //    console.log("This is an asynchronous callback function!");
+     //   document.write("This is an asynchronous callback function!")
+      // });
+
+    //  function fetchData(callback){
+     //   document.write("Fetching data from the server... <br>");
+     //   setTimeout(function(){
+     //       document.write("Data fetched successfully!<br>");
+     //       callback()
+      //  },2000);
+   // }
+   // function processData(){
+    //    document.write("Processing the fetched data... <br>");
+   // }
+    //fetchData(processData);
+
+    //const numbers = [1,2,3,4,5]
+    //const d = numbers.map(function(num){
+    //    return num*2
+   // })
+   // console.log(d)
+   // document.write(d)
+   function registeruser(username, email,callback){
+    console.log("registering user : "+username)
+    document.write("registering user : "+username)
+    setTimeout(function(){
+        console.log("user"+username+"registered successfully","<br>");
+        document.write("user"+username+"registered successfully","<br>");
+        callback(email)
+    },2000);
+   }
+   function sendwelcomeemail(email){
+    console.log("sending welcome email to "+email,"<br>")
+    document.write("sending welcome email to "+email,"<br>")
+   };
+   registeruser("Pardhu", "pardhu@gmail.com",sendwelcomeemail);
+
+      
+    </script>
+</body>
+</html>
