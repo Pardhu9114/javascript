@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   //     let mypromise = new Promise((resolve, reject) => {
+    //        let success = false;
+    //        if(success){
+    //            resolve("The operation is successfull");
+    //        }else{
+    //            reject("The operation is failed");
+                
+     ///       }
+       // })
+      //  mypromise
+      //  .then(result =>{
+      //      console.log(result);
+      //      document.write(result)
+      ///  })
+      //  .catch(error =>{
+      //      console.log(error);
+      //      document.write(error);
+      //  })
+
+     //   let promise = new Promise((resolve,reject) => {
+     //       resolve(5);
+     //   })
+      //  promise
+      //  .then(result => {
+      //      console.log(result);
+      //      document.write(result)
+      //      return result*2
+      //  })
+       // .then(result => {
+       //     console.log(result);
+       //     document.write(result)
+       //     return result+3
+       // })
+       // .then(result => {
+       //     console.log(result);
+       //     document.write(result)
+       //     return result
+      //  })
+      //  .catch(error => {
+       ///     console.log("error", error);
+       // })
+       
+       
+       let promise = new Promise((resolve,reject) => {
+        resolve(5);
+       
+    })
+    promise
+    .then(result => {
+        console.log(result);
+        document.write(result)
+        setTimeout((promise)=> {
+            console.log("Success")
+            document.write("Success")
+        },3000)}
+        fetchData
+        .then
+        (result =>{
+            console.log(result)
+            document.write(result)
+        })
+        .catch(error =>{
+            console.log("Error",error)
+            document.write(error)
+        })
+    </script>
+</body>
+</html>
