@@ -1,0 +1,97 @@
+CODE : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id = 'a' class="a">I am sai</h1>
+    <h1 id = 'b' class="b">I am lohith</h1>
+    <h1 id = 'c' class="c">I am pardhu</h1>
+    <h1 class = "a">I am srinath</h1>
+    <script>
+        let x = document.getElementsByClassName('a')
+        console.log(x)
+
+        for (let i=0;i<x.length;i++){
+            console.log(x[i])   
+        }
+    </script> -->
+
+    <!-- <h1 id = 'aa ' class="a">I am sai</h1>
+    <h1 id = 'b' class="b">I am lohith</h1>
+    <h1 id = 'c' class="c">I am pardhu</h1>
+    <h1 class = "a">I am srinath</h1>
+    <script>
+        let x = document.querySelector('a')
+        console.log(x)
+    </script> -->
+
+    <!-- <script>
+        let t = document.createElement('h2')
+        t.className = 'tt'
+        t.textContent = "Hello Ravi"
+        console.log(t)
+        document.body.appendChild(t);
+    </script> -->
+    <script>
+        const t = ['pardhu', 'saiicharan', 'lohith']
+        for(let i =0; i<t.length;i++){
+            let tt = document.createElement("h1")
+            tt.className = "a"
+            tt.textContent = t[i]
+            console.log(tt)
+        }
+    </script>
+</body>
+</html>
+
+TEXT : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = 'a'>I am sai</h1>
+    <h1 id = 'b'>I am lohith</h1>
+    <h1 id = 'c'>I am pardhu</h1>
+    <script>
+        let x = document.getElementById('a')
+        console.log(x)
+    </script>
+</body>
+</html>
+
+OUTPUT
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = 'a' class="a">I am sai</h1>
+    <h1 id = 'b' class="b">I am lohith</h1>
+    <h1 id = 'c' class="c">I am pardhu</h1>
+    <h1 class = "a">I am srinath</h1>
+    <script>
+        let x = document.getElementsByClassName('a')
+        console.log(x)
+    </script>
+</body>
+</html>
+
+OUTPUT : 
+
+ 
+
+getElementsById: 
+
