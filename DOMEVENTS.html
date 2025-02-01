@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        var age=prompt("enter your age")
+        var person=prompt("enter citizen [YES/NO] : ")
+        var citizenship_passed=prompt("enter [pass or fail] : ")
+        if(age>=18 && person=="yes" && citizenship_passed=="pass" ){
+            document.write("eligible for vote")
+        }else{
+            document.write("Not eligible for vote")
+        }
+    </script> -->
+
+    <script>
+        var bill_amount = parseFloat(prompt("Enter the amount of the bill: "));
+var customer_membership = prompt("Do you have premium membership [YES / NO]: ").toLowerCase();
+
+if (bill_amount >= 100 && customer_membership === "yes") {
+    document.write(`Total billed amount: ${bill_amount-(bill_amount * 0.25)}`,"<br>");
+    document.write(`Discounted amount: ${bill_amount * 0.25}`,"<br>");
+    document.write(`You are eligible for 25% discount on your total bill`);
+} else if (bill_amount >= 100 && customer_membership === "no") {
+    document.write(`Total billed amount: ${bill_amount-(bill_amount * 0.20)},"<br>"`);
+    document.write(`Discounted amount: ${bill_amount * 0.20}`,"<br>");
+    document.write(`You are eligible for 20% discount on your total bill`,);
+} else if (bill_amount > 50 && bill_amount < 100 && customer_membership === "yes") {
+    document.write(`Total billed amount: ${bill_amount-(bill_amount * 0.15),"<br>"}`);
+    document.write(`Discounted amount: ${bill_amount * 0.15}`,"<br>");
+    document.write(`You are eligible for 15% discount on your total bill`);
+} else if (bill_amount > 50 && bill_amount < 100 && customer_membership === "no") {
+    document.write(`Total billed amount: ${bill_amount-(bill_amount * 0.10),"<br>"}`);
+    document.write(`Discounted amount: ${bill_amount * 0.10}`,"<br>");
+    document.write(`You are eligible for 10% discount on your total bill`);
+} else {
+    document.write("Check the details once more.");
+}
+
+
+
+    </script>
+
+
+</body>
+</html>
